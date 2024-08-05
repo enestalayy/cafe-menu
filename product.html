@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kafe Menü</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">     
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/flexilbegs.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>  
+  <!-- DropDown Menu -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+      <!-- MENU START -->
+      <div class="menu-bar">
+            <div class="menu-btn">
+                  <img src="media/icons/food-and-restaurant-white.svg" width="40" height="40" class="icon">
+            </div>  
+      </div>                          
+    <div class="menu">
+          <div class="close-menu">
+              <img src="media/icons/close.svg" width="22" height="22" class="icon">
+          </div>
+          <div class="nav">
+                <ul class="main-menu">
+                      <li class="main-menu-item">
+                            <a href="index.html">Anasayfa</a>
+                      </li>
+
+                      <li class="main-menu-item">
+                            <a href="#">Soğuk İçecekler &nbsp; <img src="media/icons/add.svg" width="12" height="12"></a>
+
+                            <ul class="submenu">                                
+                                <li class="submenu-item">
+                                    <a href="product.html">Frozenlar</a>
+                                </li>
+                                <li class="submenu-item">
+                                      <a href="#">Soğuk Kahveler</a>
+                                </li>
+                                <li class="submenu-item">
+                                      <a href="#">Detox</a>
+                                </li>
+                            </ul>
+                      </li>
+
+                      <li class="main-menu-item">
+                            <a href="#">Sıcak İçecekler &nbsp; <img src="media/icons/add.svg" width="12" height="12"></a>
+
+                            <ul class="submenu">
+                                  <li class="submenu-item">
+                                        <a href="product.html">Çaylar</a>
+                                  </li>
+                                  <li class="submenu-item">
+                                        <a href="#">Kahveler</a>
+                                  </li>                                                       
+                            </ul>
+                      </li>
+                      <li class="main-menu-item">
+                        <a href="#">Yiyecekler &nbsp; <img src="media/icons/add.svg" width="12" height="12"></a>
+
+                        <ul class="submenu">
+                              <li class="submenu-item">
+                                    <a href="burger.html">Burger</a>
+                              </li>
+                              <li class="submenu-item">
+                                    <a href="#">Ana Yemekler</a>
+                              </li>
+                              <li class="submenu-item">
+                                <a href="#">Kahvaltılar</a>
+                              </li>
+                              <li class="submenu-item">
+                                    <a href="#">Aperatifler</a>
+                              </li>
+                              <li class="submenu-item">
+                                    <a href="#">Mezeler</a>
+                              </li>                                
+                        </ul>
+                      </li>
+                      <li class="main-menu-item">
+                        <a href="#">Tatlılar &nbsp; <img src="media/icons/add.svg" width="12" height="12"></a>
+
+                        <ul class="submenu">
+                              <li class="submenu-item">
+                                    <a href="#">Sütlü Tatlılar</a>
+                              </li>
+                              <li class="submenu-item">
+                                    <a href="#">Şerbetli Tatlı</a>
+                              </li>
+                              <li class="submenu-item">
+                                    <a href="#">Dondurmalar</a>
+                              </li>                                                                   
+                        </ul>
+                      </li>
+                      <li class="main-menu-item">
+                            <a href="#">Nargile</a>
+                      </li>
+                </ul>
+          </div>
+    </div>
+    <!-- Menu ENDS -->
+    <!-- ********* Product Start ***************-->
+      <div class="product-slider">
+      <div class="product-slider__wrp swiper-wrapper">
+      <div class="product-slider__item swiper-slide">
+           <div class="product-slider__img">
+
+           </div>
+           <div class="product-video-container">
+                  <video playsinline autoplay muted loop no-controls id="bgvid">
+                        <source src="media/product_video/bar.mp4" type="video/mp4">
+                  </video>
+            </div>
+            <div class="product-slider__content">
+            <!-- <span class="product-slider__code">26 December 2019</span> -->
+            <div class="product-slider__title">Karpuzlu Frozen</div>
+            <div class="product-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+            <!-- <a href="#" class="product-slider__button">18 ₺</a> -->
+            <button class="product-slider__button">18 ₺</button>
+            </div>
+      </div>
+      <div class="product-slider__item swiper-slide">
+            <div class="product-slider__img">
+            <img src="media/product_img/bar.jpg" alt="">
+            </div>
+            <div class="product-slider__content">
+            <!-- <span class="product-slider__code">26 December 2019</span> -->
+            <div class="product-slider__title">Karpuzlu Frozen</div>
+            <div class="product-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+            <button class="product-slider__button">18 ₺</button>
+            </div>
+      </div>      
+      </div>
+      <div class="product-slider__pagination"></div>
+      </div>
+<!-- Product Ends -->
+    <!-- Product Start -->
+    <div class="product-slider">
+      <div class="product-slider__wrp swiper-wrapper">
+      <div class="product-slider__item swiper-slide">
+           <div class="product-slider__img">
+
+           </div>
+           <div class="product-video-container" >
+                  <video playsinline muted loop no-controls id="bgvid">
+                        <source src="media/product_video/limonade.mp4" type="video/mp4">
+                  </video>
+            </div>
+            <div class="product-slider__content">
+            <!-- <span class="product-slider__code">26 December 2019</span> -->
+            <div class="product-slider__title">Nane Limon</div>
+            <div class="product-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+            <button class="product-slider__button">21 ₺</button>
+            </div>
+      </div>
+      <div class="product-slider__item swiper-slide">
+            <div class="product-slider__img">
+            <img src="media/product_img/limonade.jpg" alt="">
+            </div>
+            <div class="product-slider__content">
+            <!-- <span class="product-slider__code">26 December 2019</span> -->
+            <div class="product-slider__title">Nane Limon</div>
+            <div class="product-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+            <button class="product-slider__button">21 ₺</button>
+            </div>
+      </div>
+      
+      <div class="product-slider__item swiper-slide">
+            <div class="product-slider__img">
+            <img src="media/product_img/limonade2.jpg" alt="">
+            </div>
+            <div class="product-slider__content">
+            <!-- <span class="product-slider__code">26 December 2019</span> -->
+            <div class="product-slider__title">Nane Limon</div>
+            <div class="product-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+            <button class="product-slider__button">21 ₺</button>
+            </div>
+      </div>
+      
+      </div>
+      <div class="product-slider__pagination"></div>
+      </div>
+<!-- Product Ends -->
+    <!-- Product Start -->
+    <div class="product-slider">
+      <div class="product-slider__wrp swiper-wrapper">
+      <div class="product-slider__item swiper-slide">
+           <div class="product-slider__img">
+
+           </div>
+           <div class="product-video-container" >
+                  <video playsinline muted loop no-controls id="bgvid">
+                        <source src="media/product_video/coffe.mp4" type="video/mp4">
+                  </video>
+            </div>      
+            <div class="product-slider__content">
+            <!-- <span class="product-slider__code">26 December 2019</span> -->
+            <div class="product-slider__title">Çilekli</div>
+            <div class="product-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+            <button class="product-slider__button">21 ₺</button>
+            </div>
+      </div>
+      <div class="product-slider__item swiper-slide">
+            <div class="product-slider__img">
+            <img src="media/product_img/coffe.jpg" alt="">
+            </div>
+            <div class="product-slider__content">
+            <!-- <span class="product-slider__code">26 December 2019</span> -->
+            <div class="product-slider__title">Çilekli</div>
+            <div class="product-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+            <button class="product-slider__button">21 ₺</button>
+            </div>
+      </div>
+      
+      </div>
+      <div class="product-slider__pagination"></div>
+      </div>          
+<!-- Product Ends -->
+<!--------------- footer starts here --------------->
+      <div class="footer">
+            <ul>
+                  <li><a href="#"><img src="media/icons/instagram.svg" width="25" height="25"></a></li>
+                  <li><a href="#"><img src="media/icons/facebook.svg" width="25" height="25"></a></li>
+                  <li><a href="#"><img src="media/icons/mail.svg" width="28" height="28"></a></li>
+            </ul>
+            <hr>
+            <p>Tüm Hakları Saklıdır | <a href="mailto:contact@yigitcakmak.com"><span>UEC</span></a></p>
+      </div>
+<!--------------- footer ends here --------------->
+</div> <!--Wrapper-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+<script src="js/product.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
