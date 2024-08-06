@@ -1,0 +1,103 @@
+{
+  "cold-beverages": {
+    "smoothies": [
+      {
+        "title": "Watermelon Smoothies",
+        "description": "",
+        "images": ["watermelon.jpeg"],
+        "video": "watermelon.mp4"
+      },
+      {
+        "title": "Tropical Smoothies",
+        "description": "",
+        "images": ["tropical-1.jpg"],
+        "video": "tropical.mp4"
+      }
+    ],
+    "iced-coffees": [
+      {
+        "title": "Iced Coffees",
+        "description": "",
+        "items": []
+      }
+    ],
+    "detox": [
+      {
+        "title": "Detox",
+        "description": ""
+      }
+    ]
+  },
+  "hot-beverages": {
+    "teas": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "coffees": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "food": {
+    "burgers": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "main-courses": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "breakfasts": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "snacks": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "appetizers": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "desserts": {
+    "milk-desserts": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "syrup-desserts": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "ice-creams": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "hookah": [
+    {
+      "title": "",
+      "description": ""
+    }
+  ]
+}

@@ -1,130 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Kafe Menü</title>
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/base.css">     
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/flexilbegs.css">
-  <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
-  <!-- DropDown Menu -->
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-</head>
-<body>
-  <div class="wrapper">
-    <!-- HERO SECTION -->
-    <div class="hero-section">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Kafe Menü</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/flexilbegs.css" />
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <!-- DropDown Menu -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- HERO SECTION -->
+      <div class="hero-section">
         <div class="hero-video-container">
-            <video playsinline autoplay muted loop no-controls id="hero-bgvid">
-                  <source src="media/product_video/hero.mp4" type="video/mp4">
-            </video>
+          <video playsinline autoplay muted loop no-controls id="hero-bgvid">
+            <source src="media/product_video/hero.mp4" type="video/mp4" />
+          </video>
         </div>
-        <h1>Mekan Adı ve Sloganlar</h1>            
-      <!-- MENU START -->
-      <div class="menu-btn">
-            <img src="media/icons/food-and-restaurant-white.svg" width="40" height="40" class="icon">
-      </div>          
-      <!-- HERO SECTION ENDS  -->        
-    </div>
-  
-    <div class="menu">
-          <div class="close-menu">
-              <img src="media/icons/close.svg" width="22" height="22" class="icon">
-          </div>
-          <div class="nav">
-            <ul class="main-menu">
-                  <li class="main-menu-item">
-                        <a href="index.html">Anasayfa</a>
-                  </li>
+        <h1>La Via Lounge</h1>
+        <!-- MENU START -->
+        <div class="menu-btn">
+          <img
+            src="media/icons/food-and-restaurant-white.svg"
+            width="40"
+            height="40"
+            class="icon"
+          />
+        </div>
+        <!-- HERO SECTION ENDS  -->
+      </div>
 
-                  <li class="main-menu-item">
-                        <a href="#">Soğuk İçecekler &nbsp; <img src="media/icons/add.svg" width="12" height="12"></a>
+      <div class="menu">
+        <div class="close-menu">
+          <img
+            src="media/icons/close.svg"
+            width="22"
+            height="22"
+            class="icon"
+          />
+        </div>
+        <div class="nav">
+          <ul class="main-menu">
+            <li class="main-menu-item">
+              <a href="index.html">Home</a>
+            </li>
 
-                        <ul class="submenu">                                
-                            <li class="submenu-item">
-                                <a href="product.html">Frozenlar</a>
-                            </li>
-                            <li class="submenu-item">
-                                  <a href="#">Soğuk Kahveler</a>
-                            </li>
-                            <li class="submenu-item">
-                                  <a href="#">Detox</a>
-                            </li>
-                        </ul>
-                  </li>
+            <li class="main-menu-item">
+              <a href="#"
+                >Cold Beverages &nbsp;
+                <img src="media/icons/add.svg" width="12" height="12"
+              /></a>
 
-                  <li class="main-menu-item">
-                        <a href="#">Sıcak İçecekler &nbsp; <img src="media/icons/add.svg" width="12" height="12"></a>
+              <ul class="submenu">
+                <li class="submenu-item">
+                  <a
+                    href="products.html?category=cold-beverages&subcategory=smoothies"
+                    >Frozen Drinks</a
+                  >
+                </li>
+                <li class="submenu-item">
+                  <a
+                    href="products.html?category=cold-beverages&subcategory=iced-coffees"
+                    >Iced Coffees</a
+                  >
+                </li>
+                <li class="submenu-item">
+                  <a
+                    href="products.html?category=cold-beverages&subcategory=detox"
+                    >Detox</a
+                  >
+                </li>
+              </ul>
+            </li>
 
-                        <ul class="submenu">
-                              <li class="submenu-item">
-                                    <a href="product.html">Çaylar</a>
-                              </li>
-                              <li class="submenu-item">
-                                    <a href="#">Kahveler</a>
-                              </li>                                                       
-                        </ul>
-                  </li>
-                  <li class="main-menu-item">
-                    <a href="#">Yiyecekler &nbsp; <img src="media/icons/add.svg" width="12" height="12"></a>
+            <li class="main-menu-item">
+              <a href="#"
+                >Hot Beverages &nbsp;
+                <img src="media/icons/add.svg" width="12" height="12"
+              /></a>
 
-                    <ul class="submenu">
-                          <li class="submenu-item">
-                              <a href="burger.html">Burger</a>
-                            </li>
-                          <li class="submenu-item">
-                                <a href="#">Ana Yemekler</a>
-                          </li>
-                          <li class="submenu-item">
-                            <a href="#">Kahvaltılar</a>
-                          </li>
-                          <li class="submenu-item">
-                                <a href="#">Aperatifler</a>
-                          </li>
-                          <li class="submenu-item">
-                                <a href="#">Mezeler</a>
-                          </li>                                
-                    </ul>
-                  </li>
-                  <li class="main-menu-item">
-                    <a href="#">Tatlılar &nbsp; <img src="media/icons/add.svg" width="12" height="12"></a>
+              <ul class="submenu">
+                <li class="submenu-item">
+                  <a
+                    href="products.html?category=hot-beverages&subcategory=teas"
+                    >Teas</a
+                  >
+                </li>
+                <li class="submenu-item">
+                  <a
+                    href="products.html?category=hot-beverages&subcategory=coffees"
+                    >Coffees</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu-item">
+              <a href="#"
+                >Food &nbsp;
+                <img src="media/icons/add.svg" width="12" height="12"
+              /></a>
 
-                    <ul class="submenu">
-                          <li class="submenu-item">
-                                <a href="#">Sütlü Tatlılar</a>
-                          </li>
-                          <li class="submenu-item">
-                                <a href="#">Şerbetli Tatlı</a>
-                          </li>
-                          <li class="submenu-item">
-                                <a href="#">Dondurmalar</a>
-                          </li>                                                                   
-                    </ul>
-                  </li>
-                  <li class="main-menu-item">
-                        <a href="#">Nargile</a>
-                  </li>
-            </ul>
-          </div>
-    </div>
-    <!-- Menu ENDS -->
+              <ul class="submenu">
+                <li class="submenu-item">
+                  <a href="products.html?category=food&subcategory=burger"
+                    >Burger</a
+                  >
+                </li>
+                <li class="submenu-item">
+                  <a href="products.html?category=food&subcategory=main-courses"
+                    >Main Courses</a
+                  >
+                </li>
+                <li class="submenu-item">
+                  <a href="products.html?category=food&subcategory=breakfasts"
+                    >Breakfasts</a
+                  >
+                </li>
+                <li class="submenu-item">
+                  <a href="products.html?category=food&subcategory=snacks"
+                    >Snacks</a
+                  >
+                </li>
+                <li class="submenu-item">
+                  <a href="products.html?category=food&subcategory=appetizers"
+                    >Appetizers</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu-item">
+              <a href="#"
+                >Desserts &nbsp;
+                <img src="media/icons/add.svg" width="12" height="12"
+              /></a>
+
+              <ul class="submenu">
+                <li class="submenu-item">
+                  <a
+                    href="products.html?category=desserts&subcategory=milk-desserts"
+                    >Milk Desserts</a
+                  >
+                </li>
+                <li class="submenu-item">
+                  <a
+                    href="products.html?category=desserts&subcategory=syrup-desserts"
+                    >Syrup Desserts</a
+                  >
+                </li>
+                <li class="submenu-item">
+                  <a
+                    href="products.html?category=desserts&subcategory=ice-creams"
+                    >Ice Creams</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu-item">
+              <a href="products.html?category=hookah&subcategory=milk-desserts"
+                >Hookah</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Menu ENDS -->
       <!--------------- footer starts here --------------->
       <div class="footer">
-            <ul>
-                  <li><a href="#"><img src="media/icons/instagram.svg" width="25" height="25"></a></li>
-                  <li><a href="#"><img src="media/icons/facebook.svg" width="25" height="25"></a></li>
-                  <li><a href="#"><img src="media/icons/mail.svg" width="28" height="28"></a></li>
-            </ul>
-            <hr>
-            <p>Tüm Hakları Saklıdır | <a href="mailto:contact@yigitcakmak.com"><span>UEC</span></a></p>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="media/icons/instagram.svg" width="25" height="25"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="media/icons/facebook.svg" width="25" height="25"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="media/icons/mail.svg" width="28" height="28"
+            /></a>
+          </li>
+        </ul>
+        <hr />
+        <p>
+          Tüm Hakları Saklıdır |
+          <a href="mailto:contact@yigitcakmak.com"><span>UEC</span></a>
+        </p>
       </div>
       <!--------------- footer ends here --------------->
-</div>
-<script src="js/script.js"></script>
-</body>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
 </html>
