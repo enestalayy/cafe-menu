@@ -2,102 +2,243 @@
   "cold-beverages": {
     "smoothies": [
       {
-        "title": "Watermelon Smoothies",
+        "title": "Strawberry Smoothie",
         "description": "",
-        "images": ["watermelon.jpeg"],
-        "video": "watermelon.mp4"
+        "images": ["strawberry-1.jpg", "strawberry.jpeg"],
+        "video": "strawberry.mp4"
       },
       {
-        "title": "Tropical Smoothies",
+        "title": "Chocolate Smoothie",
         "description": "",
-        "images": ["tropical-1.jpg"],
-        "video": "tropical.mp4"
+        "images": ["chocolate-1.jpg", "chocolate.jpg"],
+        "video": "chocolate.mp4"
+      },
+      {
+        "title": "Banana Smoothie",
+        "description": "",
+        "images": ["banana-1.jpg", "banana.jpeg"],
+        "video": "banana.mp4"
+      },
+      {
+        "title": "Watermelon Smoothie",
+        "description": "",
+        "images": ["watermelon-1.jpeg", "watermelon.jpeg"],
+        "video": "watermelon.mp4"
       }
     ],
     "iced-coffees": [
       {
-        "title": "Iced Coffees",
+        "title": "Iced Latte",
         "description": "",
-        "items": []
+        "images": ["iced-latte.jpg"],
+        "video": "iced-latte.mp4"
+      },
+      {
+        "title": "Iced Mocha",
+        "description": "",
+        "images": ["iced-mocha.jpg"],
+        "video": "iced-mocha.mp4"
+      },
+      {
+        "title": "Cold Brew",
+        "description": "",
+        "images": ["cold-brew.jpg"],
+        "video": "cold-brew.mp4"
+      },
+      {
+        "title": "Iced Americano",
+        "description": "",
+        "images": ["iced-americano.jpg"],
+        "video": "iced-americano.mp4"
       }
     ],
     "detox": [
       {
         "title": "Detox",
-        "description": ""
+        "description": "",
+        "images": ["detox.jpg", "detox-1.jpg"],
+        "video": "detox.mp4"
       }
     ]
   },
   "hot-beverages": {
     "teas": [
       {
-        "title": "",
-        "description": ""
+        "title": "Black Tea",
+        "description": "",
+        "images": ["black-tea.jpg"],
+        "video": "black-tea.mp4"
+      },
+      {
+        "title": "White Tea",
+        "description": "",
+        "images": ["white-tea.jpg"],
+        "video": "white-tea.mp4"
+      },
+      {
+        "title": "Green Tea",
+        "description": "",
+        "images": ["green-tea.jpg"],
+        "video": "green-tea.mp4"
       }
     ],
     "coffees": [
       {
-        "title": "",
-        "description": ""
+        "title": "Latte",
+        "description": "",
+        "images": ["latte.jpg", "latte-1.jpg"],
+        "video": "latte.mp4"
+      },
+      {
+        "title": "Americano",
+        "description": "",
+        "images": ["americano.jpg", "americano.webp"],
+        "video": "americano.mp4"
+      },
+      {
+        "title": "Black Coffee",
+        "description": "",
+        "images": ["black-coffee.jpeg", "black-coffee.jpg"],
+        "video": "black-coffee.mp4"
       }
     ]
   },
   "food": {
     "burgers": [
       {
-        "title": "",
-        "description": ""
-      }
-    ],
-    "main-courses": [
+        "title": "Hamburger",
+        "description": "",
+        "images": [""],
+        "video": "hamburger.mp4"
+      },
       {
-        "title": "",
-        "description": ""
+        "title": "CheeseBurger",
+        "description": "",
+        "images": [""],
+        "video": "cheeseburger.mp4"
+      },
+      {
+        "title": "Special Burger",
+        "description": "",
+        "images": [""],
+        "video": "special.mp4"
       }
     ],
     "breakfasts": [
       {
-        "title": "",
-        "description": ""
+        "title": "Turkish Breakfast",
+        "description": "",
+        "images": [""],
+        "video": "turkish.mp4"
+      },
+      {
+        "title": "English Breakfast",
+        "description": "",
+        "images": [""],
+        "video": "english.mp4"
+      },
+      {
+        "title": "Vegan Breakfast",
+        "description": "",
+        "images": [""],
+        "video": "vegan.mp4"
       }
     ],
     "snacks": [
       {
-        "title": "",
-        "description": ""
-      }
-    ],
-    "appetizers": [
+        "title": "Ham & Cheese",
+        "description": "",
+        "images": [""],
+        "video": "ham-cheese.mp4"
+      },
       {
-        "title": "",
-        "description": ""
+        "title": "Canapé",
+        "description": "",
+        "images": [""],
+        "video": "canape.mp4"
+      },
+      {
+        "title": "Chicken Wings",
+        "description": "",
+        "images": [""],
+        "video": "chicken-wings.mp4"
       }
     ]
   },
   "desserts": {
-    "milk-desserts": [
+    "cakes": [
       {
-        "title": "",
-        "description": ""
+        "title": "Brownie",
+        "description": "",
+        "images": [""],
+        "video": "brownie.mp4"
+      },
+      {
+        "title": "Cheesecake",
+        "description": "",
+        "images": [""],
+        "video": "cheesecake.mp4"
+      },
+      {
+        "title": "Chocolate Cake",
+        "description": "",
+        "images": [""],
+        "video": "chocolate-cake.mp4"
       }
     ],
-    "syrup-desserts": [
+    "baked": [
       {
-        "title": "",
-        "description": ""
+        "title": "Baklava",
+        "description": "",
+        "images": [""],
+        "video": "baklava.mp4"
+      },
+      {
+        "title": "Pie",
+        "description": "",
+        "images": [""],
+        "video": "pie.mp4"
+      },
+      {
+        "title": "Croissant",
+        "description": "",
+        "images": [""],
+        "video": "croissant.mp4"
       }
     ],
     "ice-creams": [
       {
-        "title": "",
-        "description": ""
+        "title": "Almond & Honey",
+        "description": "",
+        "images": [""],
+        "video": "almond-honey.mp4"
+      },
+      {
+        "title": "Chocolate",
+        "description": "",
+        "images": [""],
+        "video": "chocolate.mp4"
+      },
+      {
+        "title": "Vanilla",
+        "description": "",
+        "images": [""],
+        "video": "vanilla.mp4"
+      },
+      {
+        "title": "Raspberry",
+        "description": "",
+        "images": [""],
+        "video": "raspberry.mp4"
       }
     ]
   },
   "hookah": [
     {
       "title": "",
-      "description": ""
+      "description": "",
+      "images": ["watermelon.jpeg"],
+      "video": "watermelon.mp4"
     }
   ]
 }

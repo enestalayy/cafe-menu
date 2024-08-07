@@ -49,11 +49,11 @@ document.addEventListener("DOMContentLoaded", function () {
         wrapperDiv.className = "product-slider__wrp swiper-wrapper";
 
         // Resimleri ekle
-        const productItem = document.createElement("div");
-        productItem.className = "product-slider__item swiper-slide";
 
         // Eğer video varsa, videoyu ekle
         if (product.video && product.video.length) {
+          const productItem = document.createElement("div");
+          productItem.className = "product-slider__item swiper-slide";
           const productVideo = document.createElement("div");
           productVideo.className = "product-slider__item swiper-slide";
 
@@ -75,7 +75,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         console.log("product.title :>> ", product.title);
         product.images.forEach((image) => {
-          productItem.innerHTML = `
+          if (image && image.lenght) {
+            const productItem = document.createElement("div");
+            productItem.className = "product-slider__item swiper-slide";
+            productItem.innerHTML = `
             <div class="product-slider__img">
               <img src="media/products/${category}/${subcategory}/${image}" alt="${product.title}" />
             </div>
@@ -83,10 +86,11 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="product-slider__content">
               <div class="product-slider__title">${product.title}</div>
               <div class="product-slider__text">${product.description}</div>
-              <button class="product-slider__button">18 ₺</button> <!-- Static price example -->
+              <button class="product-slider__button">18 ₺</button>
             </div>`;
 
-          wrapperDiv.appendChild(productItem);
+            wrapperDiv.appendChild(productItem);
+          }
         });
 
         // Pagination ekleme
