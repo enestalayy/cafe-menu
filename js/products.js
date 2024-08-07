@@ -115,7 +115,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const playButtons = document.querySelectorAll(
           ".product-video-container"
         );
-        videos[1].autoplay = true;
+        product.images.length
+          ? (videos[0].autoplay = true)
+          : (videos[1].autoplay = true);
 
         playButtons.forEach((btn, index) => {
           btn.addEventListener("click", function (e) {
