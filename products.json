@@ -3,61 +3,70 @@
     "smoothies": [
       {
         "title": "Strawberry Smoothie",
-        "description": "",
+        "description": "Refreshing blend of ripe strawberries and yogurt.",
         "images": ["strawberry-1.jpg", "strawberry.jpeg"],
-        "video": "strawberry.mp4"
+        "video": "strawberry.mp4",
+        "price": "5.50"
       },
       {
         "title": "Chocolate Smoothie",
-        "description": "",
+        "description": "Rich and creamy chocolate smoothie.",
         "images": ["chocolate-1.jpg", "chocolate.jpg"],
-        "video": "chocolate.mp4"
+        "video": "chocolate.mp4",
+        "price": "6.00"
       },
       {
         "title": "Banana Smoothie",
-        "description": "",
+        "description": "Smooth and sweet banana treat.",
         "images": ["banana-1.jpg", "banana.jpeg"],
-        "video": "banana.mp4"
+        "video": "banana.mp4",
+        "price": "5.00"
       },
       {
         "title": "Watermelon Smoothie",
-        "description": "",
+        "description": "Light and refreshing watermelon blend.",
         "images": ["watermelon-1.jpeg", "watermelon.jpeg"],
-        "video": "watermelon.mp4"
+        "video": "watermelon.mp4",
+        "price": "5.50"
       }
     ],
     "iced-coffees": [
       {
         "title": "Iced Latte",
-        "description": "",
+        "description": "Chilled espresso with milk over ice.",
         "images": ["iced-latte.jpg"],
-        "video": "iced-latte.mp4"
+        "video": "iced-latte.mp4",
+        "price": "4.50"
       },
       {
         "title": "Iced Mocha",
-        "description": "",
+        "description": "A delightful mix of coffee, milk, and chocolate.",
         "images": ["iced-mocha.jpg"],
-        "video": "iced-mocha.mp4"
+        "video": "iced-mocha.mp4",
+        "price": "5.00"
       },
       {
         "title": "Cold Brew",
-        "description": "",
+        "description": "Slow-brewed coffee served cold.",
         "images": ["cold-brew.jpg"],
-        "video": "cold-brew.mp4"
+        "video": "cold-brew.mp4",
+        "price": "4.00"
       },
       {
         "title": "Iced Americano",
-        "description": "",
+        "description": "Espresso diluted with chilled water.",
         "images": ["iced-americano.jpg"],
-        "video": "iced-americano.mp4"
+        "video": "iced-americano.mp4",
+        "price": "3.50"
       }
     ],
     "detox": [
       {
         "title": "Detox",
-        "description": "",
+        "description": "Revitalizing blend of green vegetables and fruits.",
         "images": ["detox.jpg", "detox-1.jpg"],
-        "video": "detox.mp4"
+        "video": "detox.mp4",
+        "price": "6.50"
       }
     ]
   },
@@ -65,41 +74,47 @@
     "teas": [
       {
         "title": "Black Tea",
-        "description": "",
+        "description": "Classic and robust black tea.",
         "images": ["black-tea.jpg"],
-        "video": "black-tea.mp4"
+        "video": "black-tea.mp4",
+        "price": "2.50"
       },
       {
         "title": "White Tea",
-        "description": "",
+        "description": "Delicate and lightly fragrant tea.",
         "images": ["white-tea.jpg"],
-        "video": "white-tea.mp4"
+        "video": "white-tea.mp4",
+        "price": "3.00"
       },
       {
         "title": "Green Tea",
-        "description": "",
+        "description": "Smooth and healthy green tea.",
         "images": ["green-tea.jpg"],
-        "video": "green-tea.mp4"
+        "video": "green-tea.mp4",
+        "price": "2.80"
       }
     ],
     "coffees": [
       {
         "title": "Latte",
-        "description": "",
+        "description": "Creamy coffee with steamed milk.",
         "images": ["latte.jpg", "latte-1.jpg"],
-        "video": "latte.mp4"
+        "video": "latte.mp4",
+        "price": "4.00"
       },
       {
         "title": "Americano",
-        "description": "",
+        "description": "Espresso with hot water, smooth and simple.",
         "images": ["americano.jpg", "americano.webp"],
-        "video": "americano.mp4"
+        "video": "americano.mp4",
+        "price": "3.00"
       },
       {
         "title": "Black Coffee",
-        "description": "",
+        "description": "Strong and bold black coffee.",
         "images": ["black-coffee.jpeg", "black-coffee.jpg"],
-        "video": "black-coffee.mp4"
+        "video": "black-coffee.mp4",
+        "price": "2.50"
       }
     ]
   },
@@ -107,61 +122,70 @@
     "burgers": [
       {
         "title": "Hamburger",
-        "description": "",
+        "description": "Classic beef patty with lettuce and tomato.",
         "images": [],
-        "video": "hamburger.mp4"
+        "video": "hamburger.mp4",
+        "price": "8.50"
       },
       {
         "title": "CheeseBurger",
-        "description": "",
+        "description": "Juicy beef patty with melted cheese.",
         "images": [],
-        "video": "cheeseburger.mp4"
+        "video": "cheeseburger.mp4",
+        "price": "9.00"
       },
       {
         "title": "Special Burger",
-        "description": "",
+        "description": "Gourmet burger with unique toppings.",
         "images": [],
-        "video": "special.mp4"
+        "video": "special.mp4",
+        "price": "10.50"
       }
     ],
     "breakfasts": [
       {
         "title": "Turkish Breakfast",
-        "description": "",
+        "description": "A hearty selection of Turkish breakfast favorites.",
         "images": [],
-        "video": "turkish.mp4"
+        "video": "turkish.mp4",
+        "price": "12.00"
       },
       {
         "title": "English Breakfast",
-        "description": "",
+        "description": "Traditional full English breakfast.",
         "images": [],
-        "video": "english.mp4"
+        "video": "english.mp4",
+        "price": "11.50"
       },
       {
         "title": "Vegan Breakfast",
-        "description": "",
+        "description": "Healthy and delicious plant-based breakfast.",
         "images": [],
-        "video": "vegan.mp4"
+        "video": "vegan.mp4",
+        "price": "10.00"
       }
     ],
     "snacks": [
       {
         "title": "Ham & Cheese",
-        "description": "",
+        "description": "Classic ham and cheese sandwich.",
         "images": [],
-        "video": "ham-cheese.mp4"
+        "video": "ham-cheese.mp4",
+        "price": "5.00"
       },
       {
         "title": "Canapé",
-        "description": "",
+        "description": "Elegant bite-sized appetizers.",
         "images": [],
-        "video": "canape.mp4"
+        "video": "canape.mp4",
+        "price": "6.00"
       },
       {
         "title": "Chicken Wings",
-        "description": "",
+        "description": "Crispy and spicy chicken wings.",
         "images": [],
-        "video": "chicken-wings.mp4"
+        "video": "chicken-wings.mp4",
+        "price": "7.50"
       }
     ]
   },
@@ -169,76 +193,78 @@
     "cakes": [
       {
         "title": "Brownie",
-        "description": "",
+        "description": "Rich and fudgy chocolate brownie.",
         "images": [],
-        "video": "brownie.mp4"
+        "video": "brownie.mp4",
+        "price": "4.00"
       },
       {
         "title": "Cheesecake",
-        "description": "",
+        "description": "Creamy cheesecake with a graham cracker crust.",
         "images": [],
-        "video": "cheesecake.mp4"
+        "video": "cheesecake.mp4",
+        "price": "5.00"
       },
       {
         "title": "Chocolate Cake",
-        "description": "",
+        "description": "Decadent chocolate cake with layers of ganache.",
         "images": [],
-        "video": "chocolate-cake.mp4"
+        "video": "chocolate-cake.mp4",
+        "price": "5.50"
       }
     ],
     "baked": [
       {
         "title": "Baklava",
-        "description": "",
+        "description": "Sweet and flaky pastry with nuts and honey.",
         "images": [],
-        "video": "baklava.mp4"
+        "video": "baklava.mp4",
+        "price": "6.00"
       },
       {
         "title": "Pie",
-        "description": "",
+        "description": "Classic fruit-filled pastry with a flaky crust.",
         "images": [],
-        "video": "pie.mp4"
+        "video": "pie.mp4",
+        "price": "4.50"
       },
       {
         "title": "Croissant",
-        "description": "",
+        "description": "Buttery and flaky French pastry.",
         "images": [],
-        "video": "croissant.mp4"
+        "video": "croissant.mp4",
+        "price": "2.50"
       }
     ],
     "ice-creams": [
       {
         "title": "Almond & Honey",
-        "description": "",
+        "description": "Creamy ice cream with crunchy almonds and sweet honey.",
         "images": [],
-        "video": "almond-honey.mp4"
+        "video": "almond-honey.mp4",
+        "price": "3.50"
       },
       {
         "title": "Chocolate",
-        "description": "",
+        "description": "Smooth and rich chocolate ice cream.",
         "images": [],
-        "video": "chocolate.mp4"
+        "video": "chocolate.mp4",
+        "price": "3.00"
       },
       {
         "title": "Vanilla",
-        "description": "",
+        "description": "Classic vanilla ice cream with a creamy texture.",
         "images": [],
-        "video": "vanilla.mp4"
+        "video": "vanilla.mp4",
+        "price": "2.80"
       },
       {
         "title": "Raspberry",
-        "description": "",
+        "description": "Tangy raspberry sorbet, refreshing and fruity.",
         "images": [],
-        "video": "raspberry.mp4"
+        "video": "raspberry.mp4",
+        "price": "3.20"
       }
     ]
-  },
-  "hookah": [
-    {
-      "title": "",
-      "description": "",
-      "images": ["watermelon.jpeg"],
-      "video": "watermelon.mp4"
-    }
-  ]
+  }
 }

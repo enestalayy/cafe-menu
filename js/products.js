@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="product-slider__content">
               <div class="product-slider__title">${product.title}</div>
               <div class="product-slider__text">${product.description}</div>
-              <button class="product-slider__button">18 ₺</button> <!-- Static price example -->
+              <button class="product-slider__button">${product.price} €</button> <!-- Static price example -->
             </div>
             `;
 
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="product-slider__content">
               <div class="product-slider__title">${product.title}</div>
               <div class="product-slider__text">${product.description}</div>
-              <button class="product-slider__button">18 ₺</button>
+              <button class="product-slider__button">${product.price} €</button>
             </div>`;
 
           wrapperDiv.appendChild(productItem);
