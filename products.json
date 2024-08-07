@@ -108,19 +108,19 @@
       {
         "title": "Hamburger",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "hamburger.mp4"
       },
       {
         "title": "CheeseBurger",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "cheeseburger.mp4"
       },
       {
         "title": "Special Burger",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "special.mp4"
       }
     ],
@@ -128,19 +128,19 @@
       {
         "title": "Turkish Breakfast",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "turkish.mp4"
       },
       {
         "title": "English Breakfast",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "english.mp4"
       },
       {
         "title": "Vegan Breakfast",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "vegan.mp4"
       }
     ],
@@ -148,19 +148,19 @@
       {
         "title": "Ham & Cheese",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "ham-cheese.mp4"
       },
       {
         "title": "Canapé",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "canape.mp4"
       },
       {
         "title": "Chicken Wings",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "chicken-wings.mp4"
       }
     ]
@@ -170,19 +170,19 @@
       {
         "title": "Brownie",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "brownie.mp4"
       },
       {
         "title": "Cheesecake",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "cheesecake.mp4"
       },
       {
         "title": "Chocolate Cake",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "chocolate-cake.mp4"
       }
     ],
@@ -190,19 +190,19 @@
       {
         "title": "Baklava",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "baklava.mp4"
       },
       {
         "title": "Pie",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "pie.mp4"
       },
       {
         "title": "Croissant",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "croissant.mp4"
       }
     ],
@@ -210,25 +210,25 @@
       {
         "title": "Almond & Honey",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "almond-honey.mp4"
       },
       {
         "title": "Chocolate",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "chocolate.mp4"
       },
       {
         "title": "Vanilla",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "vanilla.mp4"
       },
       {
         "title": "Raspberry",
         "description": "",
-        "images": [""],
+        "images": [],
         "video": "raspberry.mp4"
       }
     ]

@@ -73,12 +73,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
           wrapperDiv.appendChild(productVideo);
         }
-        console.log("product.title :>> ", product.title);
         product.images.forEach((image) => {
-          if (image && image.lenght) {
-            const productItem = document.createElement("div");
-            productItem.className = "product-slider__item swiper-slide";
-            productItem.innerHTML = `
+          const productItem = document.createElement("div");
+          productItem.className = "product-slider__item swiper-slide";
+          productItem.innerHTML = `
             <div class="product-slider__img">
               <img src="media/products/${category}/${subcategory}/${image}" alt="${product.title}" />
             </div>
@@ -89,8 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <button class="product-slider__button">18 ₺</button>
             </div>`;
 
-            wrapperDiv.appendChild(productItem);
-          }
+          wrapperDiv.appendChild(productItem);
         });
 
         // Pagination ekleme
@@ -118,9 +115,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const playButtons = document.querySelectorAll(
           ".product-video-container"
         );
-        if (videos.length > 0) {
-          videos[0].autoplay = true;
-        }
+        videos[1].autoplay = true;
+
         playButtons.forEach((btn, index) => {
           btn.addEventListener("click", function (e) {
             videos[index].play();
